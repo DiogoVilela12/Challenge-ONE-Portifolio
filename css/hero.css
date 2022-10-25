@@ -1,0 +1,56 @@
+.hero {
+    padding: 16px;
+}
+
+.hero__imagem {
+    border-radius: 100%;
+
+    width: 98px;
+    height: 98px;
+}
+
+.hero__topo {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__topo-titulo {
+    font-family: var(--font-default);
+    
+    padding: 16px 0;
+    
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.hero__topo-descricao {
+    color: var(--cor-cinza);
+    font-family: var(--font-default);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+
+}
+
+.hero__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 0;
+}
+
+.hero__links-link {
+    display: flex;
+
+    align-items: center;
+    gap: 4px;
+}
+
+.hero__link-nome {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.44px;
+}

@@ -1,0 +1,19 @@
+:root {
+    --cor-cinza: #464646;
+    --cor-branco: #FFFFFF;
+    --cor-fundo: #E5E5E5;
+    --cor-sobre: #EAF2FD;
+    --cor-azul: #2A7AE4;
+    --cor-cinza-claro: #A2A2A2;
+
+    --font-default: 'Raleway';
+}
+
+* {
+    background-color: var(--cor-fundo);
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}

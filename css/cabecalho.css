@@ -1,0 +1,38 @@
+.cabecalho {
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px;
+}
+
+.cabecalho__nome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 8px;
+}
+
+.cabecalho__nome-img {
+    width: 24px;
+    height: 24px;
+}
+
+.cabecalho__nome-nome {
+    font-weight: 700px;
+}
+
+.cabecalho__contato {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho__contato-email {
+    color: var(--cor-cinza);
+    font-weight: normal;
+    font-size: 12px;
+
+}

@@ -1,0 +1,30 @@
+.sobre {
+    background-color: var(--cor-sobre);
+    padding: 16px;
+}
+
+.sobre__titulo {
+    background-color: var(--cor-sobre);
+    font-family: var(--font-default);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+
+.sobre__descricao {
+    background-color: var(--cor-sobre);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.sobre__descricao-texto {
+    background-color: var(--cor-sobre);
+    font-family: var(--font-default);
+
+    font-size: 14px;
+    line-height: 18px;
+}

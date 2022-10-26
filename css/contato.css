@@ -56,6 +56,10 @@
     line-height: 20px;
 }
 
+#contato__mensagem-input {
+    height: 99px;
+}
+
 #contato__mensagem {
     height: 133px;
 }

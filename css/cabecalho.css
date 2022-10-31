@@ -25,7 +25,14 @@
     font-weight: 700px;
 }
 
+.cabecalho__navegacao {
+    display: none;
+}
+
 .cabecalho__contato {
+    display: flex;
+    align-items: center;
+
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,4 +42,32 @@
     font-weight: normal;
     font-size: 12px;
 
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__contato-email {
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__navegacao {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 480px;
+
+        margin-right: 40px;
+    }
+
+    .cabecalho__contato-email {
+        font-size: 14px;
+    }
+
+    .cabecalho__navegacao-link {
+        font-family: var(--font-default);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }

@@ -54,3 +54,57 @@
     font-size: 14px;
     line-height: 16.44px;
 }
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hero__topo {
+        width: 70%;
+    }
+
+    .hero__imagem {
+        order: 2;
+        width: 146px;
+        height: 146px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .hero__topo {
+        width: 750px;
+        justify-content: center;
+    }
+
+    .hero__topo-titulo {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    .hero__topo-descricao {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .hero__links {
+        width: 500px;
+    }
+
+    .hero__link-imagem {
+        width: 12px;
+    }
+
+    .hero__imagem {
+        width: 368px;
+        height: 368px;
+    }
+}

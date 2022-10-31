@@ -27,6 +27,13 @@
                 <p class="cabecalho__nome-nome">Diogo Vilela</p>
             </div>
             <div class="cabecalho__contato">
+                <nav class="cabecalho__navegacao">
+                    <a href="#sobre" class="cabecalho__navegacao-link">Sobre Mim</a>
+                    <a href="#skill" class="cabecalho__navegacao-link"> Skills</a>
+                    <a href="#hobbie" class="cabecalho__navegacao-link">Hobbies</a>
+                    <a href="#formacao" class="cabecalho__navegacao-link">Formação</a>
+                    <a href="#projetos" class="cabecalho__navegacao-link">Projetos</a>
+                </nav>
                 <a class="cabecalho__contato-email" href="emailto:diogovillela12@gmail.com">diogovillela12@gmail.com</a>
             </div>
         </section>
@@ -61,12 +68,11 @@
                 </div>
             </div>
         </section>
-        <section class="sobre container">
-            <h2 class="sobre__titulo">
-                Sobre Mim
-            </h2>
-            
+        <section class="sobre container" id="sobre">        
             <div class="sobre__descricao">
+                <h2 class="sobre__titulo">
+                    Sobre Mim
+                </h2>
                 <p class="sobre__descricao-texto">
                     Nunca deixe que o medo ofusque seus sonhos, estou sempre buscando atualizar e aperfeiçoar meus conhecimentos com muita dedicação. 
                     Prezo sempre por trabalhar em equipe, cooperando com todos e ajudando da melhor maneira possível, com grande satisfação em ensinar e aprender, à medida que todos crescemos juntos.
@@ -77,10 +83,9 @@
             </div>
         </section>
         <section class="box__section">
-            <h2 class="box__titulo">Skills</h2>
+            <h2 class="box__titulo" id="skill">Skills</h2>
 
             <div class="box">
-
                 <div class="box__rede">
                     <img src="src/html.svg" alt="" class="box__imagem">
                     <p class="box__texto">
@@ -93,8 +98,18 @@
                         JavaScript
                     </p>
                 </div>
-            </div>
-            <div class="box">
+                <div class="box__rede">
+                    <img src="src/Github.png" alt="" class="box__imagem">
+                    <p class="box__texto">
+                        Github
+                    </p>
+                </div>
+                <div class="box__rede">
+                    <img src="src/mysql.png" alt="" class="box__imagem">
+                    <p class="box__texto">
+                        MySQL
+                    </p>
+                </div>
                 <div class="box__rede">
                     <img src="src/react.svg" alt="" class="box__imagem">
                     <p class="box__texto">
@@ -107,10 +122,11 @@
                         CSS
                     </p>
                 </div>
+
             </div>
         </section>
         <section class="box__section">
-            <h2 class="box__titulo">Hobbies</h2>
+            <h2 class="box__titulo" id="hobbie">Hobbies</h2>
 
             <div class="box">
                 <div class="box__rede">
@@ -125,8 +141,18 @@
                         Ouvir Musica
                     </p>
                 </div>
-            </div>
-            <div class="box">
+                <div class="box__rede">
+                    <img src="src/guitar.svg" alt="" class="box__imagem">
+                    <p class="box__texto">
+                        Tocar Violão
+                    </p>
+                </div>
+                <div class="box__rede">
+                    <img src="src/tv.svg" alt="" class="box__imagem">
+                    <p class="box__texto">
+                        Assistir Filmes
+                    </p>
+                </div>
                 <div class="box__rede">
                     <img src="src/guitar.svg" alt="" class="box__imagem">
                     <p class="box__texto">
@@ -141,136 +167,141 @@
                 </div>
             </div>
         </section>
-        <section class="formacao">
+        <section class="formacao" id="formacao">
             <h2 class="formacao__titulo">Formação acadêmica</h2>
-            <div class="formacao__bloco">
-                <div class="formacao__imagem-bloco">
-                    <img src="src/formacao/estacio-logo-1.png" alt="Logo estacio" class="formacao__imagem">
+            <div class="formacao__lista">
+                <div class="formacao__bloco">
+                    <div class="formacao__imagem-bloco">
+                        <img src="src/formacao/estacio-logo-1.png" alt="Logo estacio" class="formacao__imagem">
+                    </div>
+                    <p class="formacao__texto">
+                        Analise e Desenvolvimento de Sistemas.
+                    </p>
+                    <p class="formacao__descricao">
+                        Cursando - 2020 a 2023
+                    </p>
                 </div>
-                <p class="formacao__texto">
-                    Analise e Desenvolvimento de Sistemas.
-                </p>
-                <p class="formacao__descricao">
-                    Cursando - 2020 a 2023
-                </p>
-            </div>
-            <div class="formacao__bloco">
-                <div class="formacao__imagem-bloco">
-                    <img src="src/formacao/alura logo.webp" alt="logo alura" class="formacao__imagem">
+                <div class="formacao__bloco">
+                    <div class="formacao__imagem-bloco">
+                        <img src="src/formacao/alura logo.webp" alt="logo alura" class="formacao__imagem">
+                    </div>
+                    <p class="formacao__texto">
+                        Formação Oracle One - Alura
+                    </p>
+                    <p class="formacao__descricao">
+                        2022 - ALURA
+                    </p>
                 </div>
-                <p class="formacao__texto">
-                    Formação Oracle One - Alura
-                </p>
-                <p class="formacao__descricao">
-                    2022 - ALURA
-                </p>
-            </div>
-            <div class="formacao__bloco">
-                <div class="formacao__imagem-bloco">
-                    <img src="src/formacao/senai logo.png" alt="Senai" id="formacao__senai" class="formacao__imagem">
+                <div class="formacao__bloco">
+    
+                    <div class="formacao__imagem-bloco">
+                        <img src="src/formacao/senai logo.png" alt="Senai" id="formacao__senai" class="formacao__imagem">
+                    </div>
+                    <p class="formacao__texto">
+                        Formação Front-End
+                    </p>
+                    <p class="formacao__descricao">
+                        2022 - SENAI
+                    </p>
                 </div>
-                <p class="formacao__texto">
-                    Formação Front-End
-                </p>
-                <p class="formacao__descricao">
-                    2022 - SENAI
-                </p>
             </div>
         </section>
-        <section class="experiencia">
+        <section class="experiencia" id="projetos">
             <h2 class="experiencia__titulo">
                 Experiência profissional
             </h2>
             <div class="experiencia__bloco">
                 <img src="src/experiencia/criptografador.png" alt="Criptografador" class="experiencia__imagem">
-                <p class="experiencia__nome-do-projeto">
-                    Decodificador de Texto
-                </p>
-                <p class="experiencia__descricao">
-                    Challenge Alura Codificador
-                </p>
-                <div class="experiencia__butoes">
-                    <a target="_blank" href="https://github.com/DiogoVilela12/Challenge-ONE-Criptografador" class="experiencia__repositorio">
-                        Repositorio
-                    </a>
-                    <a target="_blank" href="https://diogovilela12.github.io/Challenge-ONE-Criptografador/" class="experiencia__demo">
-                        Demonstração
-                    </a>
+                <div class="experiencia__informacoes">
+                    <p class="experiencia__nome-do-projeto">
+                        Decodificador de Texto
+                    </p>
+                    <p class="experiencia__descricao">
+                        Challenge Alura Codificador
+                    </p>
+                    <div class="experiencia__butoes">
+                        <a target="_blank" href="https://github.com/DiogoVilela12/Challenge-ONE-Criptografador" class="experiencia__repositorio">
+                            Repositorio
+                        </a>
+                        <a target="_blank" href="https://diogovilela12.github.io/Challenge-ONE-Criptografador/" class="experiencia__demo">
+                            Demonstração
+                        </a>
+                    </div>
                 </div>
             </div>
 
             <div class="experiencia__bloco">
                 <img src="src/experiencia/nlw.png" alt="Criptografador" class="experiencia__imagem">
-                <p class="experiencia__nome-do-projeto">
-                    NLW E-Sports Explorer
-                </p>
-                <p class="experiencia__descricao">
-                    Next Level Week - Rocketseat
-                </p>
-                <div class="experiencia__butoes">
-                    <a target="_blank" href="https://github.com/DiogoVilela12/NWL-e-sports-explorer" class="experiencia__repositorio">
-                        Repositorio
-                    </a>
-                    <a target="_Blanc" href="https://diogovilela12.github.io/NWL-e-sports-explorer/" class="experiencia__demo">
-                        Demonstração
-                    </a>
+                <div class="experiencia__informacoes">
+                    <p class="experiencia__nome-do-projeto">
+                        NLW E-Sports Explorer
+                    </p>
+                    <p class="experiencia__descricao">
+                        Next Level Week - Rocketseat
+                    </p>
+                    <div class="experiencia__butoes">
+                        <a target="_blank" href="https://github.com/DiogoVilela12/NWL-e-sports-explorer" class="experiencia__repositorio">
+                            Repositorio
+                        </a>
+                        <a target="_Blanc" href="https://diogovilela12.github.io/NWL-e-sports-explorer/" class="experiencia__demo">
+                            Demonstração
+                        </a>
+                    </div>
                 </div>
             </div>
 
             <div class="experiencia__bloco">
                 <img src="src/experiencia/animeFlix.png" alt="Criptografador" class="experiencia__imagem">
-                <p class="experiencia__nome-do-projeto">
-                    Decodificador de Texto
-                </p>
-                <p class="experiencia__descricao">
-                    Challenge Alura Codificador
-                </p>
-                <div class="experiencia__butoes">
-                    <a target="_blank" href="https://github.com/DiogoVilela12/AnimeFlix" class="experiencia__repositorio">
-                        Repositorio
-                    </a>
-                    <a target="_Blanc" href="https://diogovilela12.github.io/AnimeFlix/" class="experiencia__demo">
-                        Demonstração
-                    </a>
+                <div class="experiencia__informacoes">
+                    <p class="experiencia__nome-do-projeto">
+                        Decodificador de Texto
+                    </p>
+                    <p class="experiencia__descricao">
+                        Challenge Alura Codificador
+                    </p>
+                    <div class="experiencia__butoes">
+                        <a target="_blank" href="https://github.com/DiogoVilela12/AnimeFlix" class="experiencia__repositorio">
+                            Repositorio
+                        </a>
+                        <a target="_Blanc" href="https://diogovilela12.github.io/AnimeFlix/" class="experiencia__demo">
+                            Demonstração
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="contato">
-            <h2 class="contato__titulo">Contato</h2>
-
-            <p class="contato__texto">
-                Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
-            </p>
-
-            <form class="contato__labels">
-                <div class="contato__bloco">
-                    <label class="contato__descricao" for="username">Nome
-
-                    </label>
-                    <input type="text" class="contato__label">
-                </div>
+            <img src="src/contato.png" alt="Foto de um Telefone" class="contato__imagem">
+            <div class="contato__informacoes">
+                <h2 class="contato__titulo">Contato</h2>
+                <p class="contato__texto">
+                    Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                </p>
+                <form class="contato__labels">
+                    <div class="contato__bloco">
+                        <label class="contato__descricao" for="username">Nome
+                        </label>
+                        <input type="text" class="contato__label">
+                    </div>
                 
-
-                <div class="contato__bloco">
-                    <label class="contato__descricao" for="email">Email</label>
-                    <input type="text" class="contato__label">
-                </div>
-
-                <div class="contato__bloco">
-                    <label class="contato__descricao" for="assunto">Assunto</label>
-                    <input type="text" class="contato__label">
-                </div>
-
-                <div id="contato__mensagem" class="contato__bloco">
-                    <label class="contato__descricao" for="mensagem">Mensagem</label>
-                    <textarea id="contato__mensagem-input"class="contato__label" cols="30" rows="10"></textarea>
-                </div>
-            </form>
-
-            <button class="experiencia__demo contato__button">
-                Enviar Mensagem
-            </button>
+                    <div class="contato__bloco">
+                        <label class="contato__descricao" for="email">Email</label>
+                        <input type="text" class="contato__label">
+                    </div>
+                    <div class="contato__bloco">
+                        <label class="contato__descricao" for="assunto">Assunto</label>
+                        <input type="text" class="contato__label">
+                    </div>
+                    <div id="contato__mensagem" class="contato__bloco">
+                        <label class="contato__descricao" for="mensagem">Mensagem</label>
+                        <textarea id="contato__mensagem-input"class="contato__label" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+                <button class="experiencia__demo contato__button">
+                    Enviar Mensagem
+                </button>
+            </div>
         </section>
     </main>
     <footer class="rodape">

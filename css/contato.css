@@ -5,6 +5,14 @@
     padding: 16px;
 }
 
+.contato__imagem {
+    display: none;
+}
+
+.contato__informacoes {
+    background-color: var(--cor-sobre);
+}
+
 .contato__titulo {
     background-color: var(--cor-sobre);
     font-family: var(--font-default);
@@ -58,6 +66,8 @@
 
 #contato__mensagem-input {
     height: 99px;
+    
+    resize: none;
 }
 
 #contato__mensagem {
@@ -67,4 +77,19 @@
 .contato__button {
     margin-top: 16px;
     border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        padding: 32px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contato__imagem {
+        display: block;
+        margin-right: 35px;
+        width: 464px;
+        height: 593px;
+    }
 }

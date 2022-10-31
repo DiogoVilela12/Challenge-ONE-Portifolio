@@ -28,3 +28,34 @@
     font-size: 14px;
     line-height: 18px;
 }
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 16px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        padding: 40px;
+        height: 330px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sobre__titulo {
+        align-self: flex-start;
+    }
+
+    .sobre__descricao {
+        width: 750px;
+    }
+
+    .sobre__descricao-texto {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

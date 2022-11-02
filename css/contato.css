@@ -19,7 +19,7 @@
     color: var(--cor-cinza);
     font-weight: 700;
     font-size: 22px;
-    line-height: 25px;   
+    line-height: 25px;
 }
 
 .contato__texto {
@@ -64,9 +64,9 @@
     line-height: 20px;
 }
 
-#contato__mensagem-input {
+#mensagem {
     height: 99px;
-    
+
     resize: none;
 }
 
